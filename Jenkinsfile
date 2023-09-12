@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'linux' }
+  agent { label 'linux-002' }
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
